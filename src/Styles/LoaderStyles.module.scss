@@ -1,0 +1,71 @@
+.main
+{
+   position: absolute;
+   top: 0rem;
+   left:0rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   height: 100vh;
+   background-color: #FAFAF8;
+}
+.loaderContainer
+{
+   position: relative;
+   width: 22.4rem;
+   height: 8rem;
+   background-color: #FFFFFF;
+   border-radius: .8rem;
+   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+   -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+   -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+
+.title
+{
+   position: absolute;
+   left: 1.6rem;
+   top: .8rem;
+   font-family: "Poppins";
+   font-weight: 500;
+   font-size: 1.4rem;
+   color: #4F4F4F;
+}
+
+.loader{
+   position: absolute;
+   bottom: 1.6rem;
+   left: 1.4rem;
+   display: flex;
+   align-items: center;
+   width: 19.2rem;
+   height: .4rem;
+   background-color: #F2F2F2;
+   border-radius: .8rem;
+}
+
+.bar{
+   content: " ";
+   display: inline-block;
+   width: 7.2rem;
+   height: .4rem;
+   background-color: #2F80ED;
+   border-radius: .8rem;
+   animation: loader 1s infinite ease-in;
+}
+
+@keyframes loader {
+   0%{
+      transform: translateX(0);
+      width: 0rem;
+   }
+   50%{
+      width: 7.2rem;
+   }
+   100%{
+      transform: translateX(19.4rem);
+      width: 0rem;
+   }
+
+}

@@ -1,0 +1,74 @@
+.title{
+    position: absolute;
+    top: 2.4rem;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #4F4F4F;
+ }
+ .subtitle{
+    position: absolute;
+    top: 6.4rem;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: .8rem;
+    color: #828282;
+ }
+ .imageContainer{
+    position: absolute;
+    bottom: 11.2rem;
+    display: flex;
+    justify-content: center;
+    width: 26.4rem;
+    height: 17.6rem;
+    background-color: #F6F8FB;
+    border: .1rem dashed #97BEF4;
+    border-radius: .8rem;
+    padding: 0rem;
+ }
+ .image{
+    position: relative;
+    top: 2.4rem;
+    left: 7.2rem;
+    width: 10.4rem;
+    height: 7.2rem;
+ }
+ .titleDragDrop{
+    position: relative;
+    top: 12.8rem;
+    right: 4.8rem;
+    display: inline;
+    height: 1.2rem;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1rem;
+    color: #BDBDBD;
+ }
+ .paragraph{
+    position: absolute;
+    bottom: 7.2rem;
+    font-family: "Poppins";
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #BDBDBD;
+ }
+ .form{
+   display: flex;
+   justify-content: center;
+ }
+ .chooseFile{
+    position: absolute;
+    bottom: 2.4rem;
+    width: 8rem;
+    height: 3.2rem;
+    font-family: "Noto sans";
+    font-weight: 500;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: #2F80ED;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+ }
+ 
+ 

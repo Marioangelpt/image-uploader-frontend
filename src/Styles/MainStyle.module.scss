@@ -1,0 +1,20 @@
+.main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   height: 100vh;
+   background-color: #FAFAFB;
+}
+.container{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   width: 32rem;
+   height: 39.2rem;
+   background-color: #FFFFFF;
+   border-radius: .8rem;
+   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+   -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+   -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
